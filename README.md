@@ -1,5 +1,5 @@
 # node-red-contrib-parser-ini
-[Node-RED](https://nodered.org) node to parser/serialize [INI](https://en.wikipedia.org/wiki/INI_file) configuration files.
+[Node-RED](https://nodered.org) node to parse/serialize [INI](https://en.wikipedia.org/wiki/INI_file) configuration files.
 
 Based on the [isaacs/ini](https://github.com/npm/ini) library.
 
