@@ -28,7 +28,7 @@
 		"url": "https://github.com/alexandrainst/node-red-contrib-parser-ini.git"
 	},
 	"dependencies": {
-		"ini": "^1.3.5"
+		"ini": "^1.3.6"
 	},
 	"devDependencies": {
 		"jshint": "^2.12.0"
