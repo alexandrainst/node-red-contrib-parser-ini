@@ -1,4 +1,5 @@
 # node-red-contrib-parser-ini
+
 [Node-RED](https://nodered.org) node to parse/serialize [INI](https://en.wikipedia.org/wiki/INI_file) configuration files.
 
 ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/alexandrainst/node-red-contrib-parser-ini/Node.js%20CI?logo=github)
