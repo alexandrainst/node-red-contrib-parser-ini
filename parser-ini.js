@@ -1,5 +1,5 @@
 module.exports = function (RED) {
-	"use strict";
+	'use strict';
 	const ini = require('ini');
 	function ParserIniNode(n) {
 		RED.nodes.createNode(this, n);
