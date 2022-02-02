@@ -1,6 +1,6 @@
 {
 	"name": "node-red-contrib-parser-ini",
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"description": "Node-RED node to parse/serialize INI configuration files",
 	"readmeFilename": "readme.md",
 	"keywords": [
@@ -13,7 +13,11 @@
 		"node-red",
 		"nodered"
 	],
+	"engines": {
+		"node": ">=10"
+	},
 	"node-red": {
+		"version": ">=0.20.0",
 		"nodes": {
 			"parser-ini": "parser-ini.js"
 		}

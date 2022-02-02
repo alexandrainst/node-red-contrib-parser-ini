@@ -10,7 +10,8 @@ module.exports = function (RED) {
 			if (value !== undefined) {
 				if (typeof value === 'string') {
 					try {
-						value = ini.parse(value);
+						// Object.assign() to avoid bugs due to Object.create(null) used by the ini library
+						value = Object.assign({}, ini.parse(value));
 						RED.util.setMessageProperty(msg, node.property, value);
 						node.send(msg);
 					} catch (e) {
