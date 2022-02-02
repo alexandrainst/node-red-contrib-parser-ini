@@ -9,6 +9,8 @@
 
 Based on the [isaacs/ini](https://github.com/npm/ini) library.
 
-License: [MIT](LICENSE.md), 2020.
+See example: [flows.json](examples/flows.json)
+
+License: [MIT](LICENSE.md), 2020-2022.
 
 Originally made by [Alexandre Alapetite](https://alexandra.dk/alexandre.alapetite) at the [Alexandra Institute](https://alexandra.dk).
