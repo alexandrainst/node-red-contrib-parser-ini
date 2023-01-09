@@ -2,7 +2,7 @@
 
 [Node-RED](https://nodered.org) node to parse/serialize [INI](https://en.wikipedia.org/wiki/INI_file) configuration files.
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/alexandrainst/node-red-contrib-parser-ini/Node.js%20CI?logo=github)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/alexandrainst/node-red-contrib-parser-ini/nodejs.yml?branch=master&logo=github)
 ![npm](https://img.shields.io/npm/dy/node-red-contrib-parser-ini?logo=npm)
 
 [![NPM statistics](https://nodei.co/npm/node-red-contrib-parser-ini.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/node-red-contrib-parser-ini/)

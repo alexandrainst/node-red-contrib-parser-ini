@@ -1,6 +1,6 @@
 {
 	"name": "node-red-contrib-parser-ini",
-	"version": "0.4.0",
+	"version": "0.4.1",
 	"description": "Node-RED node to parse/serialize INI configuration files",
 	"readmeFilename": "readme.md",
 	"keywords": [
@@ -35,7 +35,7 @@
 		"ini": "^3.0.1"
 	},
 	"devDependencies": {
-		"eslint": "^8.29.0",
+		"eslint": "^8.31.0",
 		"eslint-config-standard": "^17.0.0",
 		"eslint-plugin-html": "^7.1.0",
 		"eslint-plugin-import": "^2.26.0",
