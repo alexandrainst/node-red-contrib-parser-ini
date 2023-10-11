@@ -16,7 +16,7 @@
 		"node": ">=14"
 	},
 	"node-red": {
-		"version": ">=0.20.0",
+		"version": ">=2.0.0",
 		"nodes": {
 			"parser-ini": "parser-ini.js"
 		}
