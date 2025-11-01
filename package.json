@@ -31,7 +31,7 @@
 		"url": "https://github.com/alexandrainst/node-red-contrib-parser-ini.git"
 	},
 	"dependencies": {
-		"ini": "^5.0.0"
+		"ini": "^6.0.0"
 	},
 	"devDependencies": {
 		"eslint": "^9.8.0",
