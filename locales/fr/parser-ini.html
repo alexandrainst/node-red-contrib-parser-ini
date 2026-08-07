@@ -1,0 +1,18 @@
+<script type="text/x-red" data-help-name="parser-ini">
+	<p>Convertit entre une chaîne formatée INI et sa représentation d’objet JavaScript, dans les deux sens.</p>
+	<h3>Entrées</h3>
+	<dl class="message-properties">
+		<dt>payload<span class="property-type">object | string</span></dt>
+		<dd>Un objet JavaScript ou une chaîne INI.</dd>
+	</dl>
+	<h3>Sorties</h3>
+	<dl class="message-properties">
+		<dt>payload<span class="property-type">object | string</span></dt>
+		<dd>
+			<ul>
+				<li>Si l’entrée est une chaîne texte INI, tente de la transformer en objet JavaScript.</li>
+				<li>Si l’entrée est un objet JavaScript, tente de la transformer en chaîne texte INI.</li>
+			</ul>
+		</dd>
+	</dl>
+</script>

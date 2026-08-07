@@ -1,0 +1,9 @@
+{
+	"parser-ini": {
+		"errors": {
+			"dropped-object": "Contenu non objet ignoré",
+			"dropped": "Type de contenu non pris en charge ignoré",
+			"dropped-error": "Échec de la conversion du contenu"
+		}
+	}
+}
