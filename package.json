@@ -13,10 +13,10 @@
 		"nodered"
 	],
 	"engines": {
-		"node": ">=8"
+		"node": ">=14"
 	},
 	"node-red": {
-		"version": ">=0.20.0",
+		"version": ">=3",
 		"nodes": {
 			"parser-ini": "parser-ini.js"
 		}
