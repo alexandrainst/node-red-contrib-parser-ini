@@ -40,8 +40,7 @@
 		"eslint-plugin-html": "^8.1.4",
 		"globals": "^17.9.0",
 		"markdownlint-cli2": "^0.23.2",
-		"neostandard": "^0.14.0-next",
-		"node-red-contrib-mock-cli": "^1.5.0"
+		"neostandard": "^0.14.0-next"
 	},
 	"scripts": {
 		"eslint": "eslint .",
