@@ -1,6 +1,6 @@
 {
 	"name": "node-red-contrib-parser-ini",
-	"version": "0.6.0",
+	"version": "0.7.0",
 	"description": "Node-RED node to parse/serialize INI configuration files",
 	"keywords": [
 		"ini",
@@ -13,10 +13,10 @@
 		"nodered"
 	],
 	"engines": {
-		"node": ">=22"
+		"node": ">=14"
 	},
 	"node-red": {
-		"version": ">=5.0.0",
+		"version": ">=3",
 		"nodes": {
 			"parser-ini": "parser-ini.js"
 		}
@@ -39,16 +39,18 @@
 		"eslint-plugin-html": "^8.1.4",
 		"globals": "^17.9.0",
 		"markdownlint-cli2": "^0.23.2",
-		"neostandard": "^0.14.0-next"
+		"neostandard": "^0.14.0-next",
+		"node-red-contrib-mock-cli": "^1.5.0"
 	},
 	"scripts": {
 		"eslint": "eslint .",
 		"eslint_fix": "eslint --fix .",
 		"markdownlint": "markdownlint-cli2",
 		"markdownlint_fix": "markdownlint-cli2 --fix",
-		"fix": "npm run rtlcss && npm run eslint_fix && npm run markdownlint_fix",
+		"fix": "npm run eslint_fix && npm run markdownlint_fix",
 		"pretest": "npm run eslint && npm run markdownlint",
 		"start": "node ./index.js",
-		"test": "npm -v"
+		"test:only": "./test.sh",
+		"test": "npm run test:only"
 	}
 }
