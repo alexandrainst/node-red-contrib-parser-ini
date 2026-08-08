@@ -50,7 +50,7 @@
 		"fix": "npm run eslint_fix && npm run markdownlint_fix",
 		"pretest": "npm run eslint && npm run markdownlint",
 		"start": "node ./index.js",
-		"test:only": "node ./test.sh",
+		"test:only": "./test.sh",
 		"test": "npm run test:only"
 	}
 }
